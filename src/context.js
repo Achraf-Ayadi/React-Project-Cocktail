@@ -41,7 +41,7 @@ const AppProvider = ({ children }) => {
       setLoading(false)
     }
   }, [searchTerm])
-  console.log("hello")
+  
   useEffect(() => {
     fetchData()
   }, [searchTerm, fetchData])
